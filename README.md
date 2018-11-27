@@ -32,8 +32,24 @@ Create client
 var client = amazon.createClient({
   awsId: "aws ID",
   awsSecret: "aws Secret",
-  awsTag: "aws Tag"
+  awsTag: "aws Tag",
+  domain: "US"
 });
+```
+Available domains :   
+```  
+    BR: 'webservices.amazon.com.br',
+    CA: 'webservices.amazon.ca',
+    CN: 'webservices.amazon.cn',
+    FR: 'webservices.amazon.fr',
+    DE: 'webservices.amazon.de',
+    IN: 'webservices.amazon.in',
+    IT: 'webservices.amazon.it',
+    JP: 'webservices.amazon.co.jp',
+    MX: 'webservices.amazon.com.mx',
+    ES: 'webservices.amazon.es',
+    UK: 'webservices.amazon.co.uk',
+    US: 'webservices.amazon.com'
 ```
 Now you are ready to use the API!
 
